@@ -14,7 +14,7 @@ function buscar() {
     });
     //donde esta la imagen??
     if (resultado == undefined) {
-        //alert("No se encontro la pieza");//
+        alert("No se encontro la pieza");
         imgPieza.src = "assets/images/piezas/logo.png";
         resultadoBusqueda.innerText = "No se encontro la pieza";
     } else {
